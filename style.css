@@ -1,0 +1,133 @@
+body{
+     height:100vh;
+     background:url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center/cover;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+}
+
+.navbar
+{
+    position:absolute;
+    top:20px;
+    width:90%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:white;
+}
+
+.logo
+{
+    font-size:22px;
+    font-weight:bold;
+}
+
+.navbar-links
+{
+    display:flex;
+    gap:25px;
+}
+
+.navbar-links a
+{
+    text-decoration:none;
+    color:white;
+    font-size:21px;
+    transition:0.3s;
+}
+
+.navbar-links a:hover
+{
+    color:#00d9ff;
+}
+
+.navbar-button
+{
+    padding:8px 21px;
+    border:none;
+    background:white;
+    color:black;
+    border-radius:4px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.container
+{
+    width:700px;
+    height:350px;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(5px);
+    display:flex;
+    border:2px solid rgba(255,255,255,0.3);
+    box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
+
+.right
+{
+    width:100%;
+    background:white;
+    padding:40px;
+}
+
+.right h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#333;
+}
+
+.right-box{
+    margin-bottom:20px;
+}
+
+ .icon{
+            width:20px;
+            height:30px;
+            border-radius:50%;
+            background:white;
+            padding:0px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+.right-box input
+{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:4px;
+    outline:none;
+}
+
+.input-box input:focus{
+    border-color:#00c6ff;
+}
+
+ .login{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#00c6ff;
+    color:white;
+    font-size:16px;
+    border-radius:4px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.login:hover{
+    background:#009ec3;
+}
+
+.signup{
+    margin-top:15px;
+    text-align:center;
+    font-size:14px;
+}
+
+.signup a
+{
+    text-decoration:none;
+    color:#00a2c7;
+    font-weight:bold;
+}
